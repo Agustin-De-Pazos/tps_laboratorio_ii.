@@ -48,7 +48,6 @@ namespace Entidades
 
             return sb.ToString();
         }
-
         /// <summary>
         /// Dos vehiculos son iguales si comparten el mismo chasis
         /// </summary>
