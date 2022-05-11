@@ -36,7 +36,7 @@ namespace Entidades
         /// <returns></returns>
         public override string ToString()
         {
-            return this.Listar(this, ETipo.Todos);
+            return Listar(this, ETipo.Todos);
         }
         #endregion
 
@@ -49,7 +49,7 @@ namespace Entidades
         /// <param name="taller">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
         /// <returns></returns>
-        public string Listar(Taller t, ETipo tipo)
+        public static string Listar(Taller t, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
 
